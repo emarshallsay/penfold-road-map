@@ -4,6 +4,9 @@
 The source GeoJSON coordinates are treated as via points. OSRM returns full
 road geometry between those points. If routing fails or looks implausible, the
 original geometry is retained and marked as unsnapped.
+
+This script is intended to run in GitHub Actions; the generated geometry is
+committed so the live map does not depend on routing-service availability.
 """
 from __future__ import annotations
 
@@ -75,7 +78,6 @@ def main():
             routed, distance = route_geometry(coords)
             chain = max(waypoint_chain_length(coords), 1)
             # Reject a route if it is wildly longer than the intended waypoint chain.
-            # This catches bad snaps/ferries/detours without penalising normal winding roads.
             if distance > chain * 3.0 + 5000:
                 raise RuntimeError(f"implausible route: {distance/1000:.1f} km vs {chain/1000:.1f} km waypoint chain")
             feature["geometry"] = {"type": "LineString", "coordinates": routed}
