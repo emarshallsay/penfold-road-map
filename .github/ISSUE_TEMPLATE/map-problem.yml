@@ -1,0 +1,40 @@
+name: Map or website problem
+description: Report a problem with the website, search, road geometry, restriction checker or map display.
+title: "[Map problem]: "
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: What is affected?
+      options:
+        - Map display
+        - Road line / geometry
+        - Road search
+        - Place search
+        - Check this area / live restrictions
+        - Permanent restriction marker
+        - Mobile layout
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Tell us what you expected and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / device
+      placeholder: "e.g. Chrome on Android, Safari on iPhone, Chrome on Windows"
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, road names, links or other details are welcome.
+    validations:
+      required: false
