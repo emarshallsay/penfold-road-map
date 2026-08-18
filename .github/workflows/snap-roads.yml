@@ -1,0 +1,34 @@
+name: Snap road geometries
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'roads.geojson'
+      - 'roads-expansion-*.geojson'
+      - 'scripts/snap_routes.py'
+
+permissions:
+  contents: write
+
+jobs:
+  snap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Generate road-following geometry
+        run: python3 scripts/snap_routes.py
+
+      - name: Commit snapped dataset when changed
+        run: |
+          if git diff --quiet -- roads-snapped.geojson; then
+            echo 'No snapped-geometry changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add roads-snapped.geojson
+          git commit -m 'Update snapped road geometry'
+          git push
