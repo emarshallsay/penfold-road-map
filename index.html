@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17222e">
+  <title>Penfold UK Road Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div><h1>Penfold UK Road Map</h1><p>VW T6.1 LWB pop-top · 2.10 m high · planning guidance</p></div>
+    <button id="panelToggle" aria-label="Open map controls">☰</button>
+  </header>
+  <main>
+    <aside id="panel">
+      <section>
+        <h2>Find a road or place</h2>
+        <form id="placeForm"><input id="placeSearch" autocomplete="off" placeholder="Road, town or place…"><button>Search</button></form>
+        <div id="placeResults" class="results"></div>
+      </section>
+      <section>
+        <h2>Penfold road intelligence</h2>
+        <input id="roadSearch" autocomplete="off" placeholder="e.g. Hardknott, Cornwall, Skye…">
+        <div class="filters" id="filters">
+          <button class="active" data-rating="all">All</button><button data-rating="green">Green</button><button data-rating="yellow">Yellow</button><button data-rating="orange">Orange</button><button data-rating="red">Red</button><button data-rating="grey">Unknown</button>
+        </div>
+        <div id="roadResults" class="results muted"></div>
+      </section>
+      <section>
+        <h2>Restrictions around the map</h2>
+        <p class="muted">Checks mapped height/width/length/weight restrictions, barriers and fords in the visible area.</p>
+        <button id="restrictionBtn" class="primary">Check this area</button>
+        <div id="restrictionStatus" class="muted"></div>
+      </section>
+      <section class="vehicle">
+        <h2>Penfold</h2><div><b>2.10 m</b><span>height</span><b>5.304 m</b><span>length</span><b>1.904 m</b><span>body width</span><b>~2.297 m</b><span>mirrors</span></div>
+      </section>
+      <section class="legend"><h2>Key</h2><p><i class="green"></i> Straightforward</p><p><i class="yellow"></i> Suitable with care</p><p><i class="orange"></i> Deliberate/adventurous</p><p><i class="red"></i> Avoid by default</p><p><i class="grey"></i> Unknown</p><small>Motorways are green by default unless a specific issue overrides them. Signs, closures and conditions always take priority.</small></section>
+    </aside>
+    <div id="map"></div>
+  </main>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="app.js"></script>
+</body>
+</html>
