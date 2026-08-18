@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 SOURCES=[ROOT/'roads.geojson',*sorted(ROOT.glob('roads-expansion-*.geojson'))]
 OUTPUT=ROOT/'roads-snapped.geojson'
 OSRM=os.environ.get('OSRM_URL','https://router.project-osrm.org')
-USER_AGENT='PenfoldRoadMap/1.0 (github.com/emarshallsay/penfold-road-map)'
+USER_AGENT='UKCampervanRoadMap/1.0'
 
 def haversine(a,b):
     lon1,lat1=map(math.radians,a);lon2,lat2=map(math.radians,b);dlon=lon2-lon1;dlat=lat2-lat1
