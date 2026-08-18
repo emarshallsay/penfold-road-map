@@ -1,0 +1,2541 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "name": "Hardknott Pass",
+        "region": "Lake District",
+        "rating": "red",
+        "reason": "Single-track, severe hairpins and gradients around 1 in 3. Penfold can physically fit, but the LWB/tight steep turns make this an avoid-by-default road.",
+        "source": "https://vwcaliforniaclub.com/threads/hardnott-pass-to-eskdale-in-se-cali-fun.18568/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.247,
+            54.402
+          ],
+          [
+            -3.205,
+            54.405
+          ],
+          [
+            -3.171,
+            54.409
+          ],
+          [
+            -3.139,
+            54.414
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "name": "Wrynose Pass",
+        "region": "Lake District",
+        "rating": "orange",
+        "reason": "Narrow mountain road with steep gradients and hairpins. Doable in a T6-sized camper, but reversing/passing can be awkward.",
+        "source": "https://www.openstreetmap.org/search?query=Wrynose%20Pass"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.118,
+            54.418
+          ],
+          [
+            -3.08,
+            54.416
+          ],
+          [
+            -3.044,
+            54.414
+          ],
+          [
+            -3.008,
+            54.411
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "name": "Honister Pass",
+        "region": "Lake District",
+        "rating": "orange",
+        "reason": "Very steep and narrow in sections with tourist, bus, cycle and walking traffic.",
+        "source": "https://www.openstreetmap.org/search?query=Honister%20Pass"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.202,
+            54.542
+          ],
+          [
+            -3.199,
+            54.523
+          ],
+          [
+            -3.192,
+            54.51
+          ],
+          [
+            -3.178,
+            54.499
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "name": "Newlands Pass",
+        "region": "Lake District",
+        "rating": "orange",
+        "reason": "Tight in places with very steep sections and limited passing. Much less pleasant at busy times.",
+        "source": "https://www.openstreetmap.org/search?query=Newlands%20Pass"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.191,
+            54.617
+          ],
+          [
+            -3.204,
+            54.592
+          ],
+          [
+            -3.217,
+            54.565
+          ],
+          [
+            -3.259,
+            54.541
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "name": "Kirkstone Pass (A592)",
+        "region": "Lake District",
+        "rating": "yellow",
+        "reason": "Steep and occasionally narrow, but a normal through-road and substantially easier than Hardknott/Wrynose.",
+        "source": "https://www.openstreetmap.org/search?query=Kirkstone%20Pass"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.922,
+            54.458
+          ],
+          [
+            -2.916,
+            54.472
+          ],
+          [
+            -2.909,
+            54.486
+          ],
+          [
+            -2.918,
+            54.502
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "name": "Porlock Hill (A39)",
+        "region": "Exmoor",
+        "rating": "orange",
+        "reason": "Very steep with hairpins. Penfold should be capable, but the toll road is the lower-stress alternative.",
+        "source": "https://www.openstreetmap.org/search?query=Porlock%20Hill"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.598,
+            51.208
+          ],
+          [
+            -3.626,
+            51.211
+          ],
+          [
+            -3.653,
+            51.214
+          ],
+          [
+            -3.678,
+            51.219
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "name": "Winnats Pass",
+        "region": "Peak District",
+        "rating": "orange",
+        "reason": "Steep, narrow and often busy with walkers/cyclists. Penfold fits, but timing matters.",
+        "source": "https://www.openstreetmap.org/search?query=Winnats%20Pass"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.797,
+            53.344
+          ],
+          [
+            -1.813,
+            53.342
+          ],
+          [
+            -1.832,
+            53.34
+          ],
+          [
+            -1.845,
+            53.339
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "name": "Rosedale Chimney Bank",
+        "region": "North York Moors",
+        "rating": "red",
+        "reason": "Extremely steep with difficult alignment. Not a sensible Penfold through-route.",
+        "source": "https://www.openstreetmap.org/search?query=Rosedale%20Chimney%20Bank"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.889,
+            54.354
+          ],
+          [
+            -0.892,
+            54.361
+          ],
+          [
+            -0.894,
+            54.368
+          ],
+          [
+            -0.9,
+            54.375
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "name": "Bwlch y Groes",
+        "region": "Mid Wales",
+        "rating": "red",
+        "reason": "Very narrow, severe gradients and little room. Possible, but little upside in an LWB camper unless the drive itself is the objective.",
+        "source": "https://www.openstreetmap.org/search?query=Bwlch%20y%20Groes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.609,
+            52.757
+          ],
+          [
+            -3.622,
+            52.743
+          ],
+          [
+            -3.637,
+            52.729
+          ],
+          [
+            -3.655,
+            52.713
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "name": "Gospel Pass",
+        "region": "Black Mountains",
+        "rating": "orange",
+        "reason": "Long stretches of single-track, steep sections and winter exposure. Good in settled weather if you are happy reversing.",
+        "source": "https://www.openstreetmap.org/search?query=Gospel%20Pass"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.061,
+            51.9
+          ],
+          [
+            -3.043,
+            51.944
+          ],
+          [
+            -3.037,
+            51.984
+          ],
+          [
+            -3.105,
+            52.02
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "name": "Black Mountain Pass (A4069)",
+        "region": "Bannau Brycheiniog",
+        "rating": "yellow",
+        "reason": "Twisty and exposed but a proper A-road. Generally a good Penfold scenic route in normal weather.",
+        "source": "https://www.openstreetmap.org/search?query=A4069%20Black%20Mountain%20Pass"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.878,
+            51.939
+          ],
+          [
+            -3.866,
+            51.902
+          ],
+          [
+            -3.87,
+            51.865
+          ],
+          [
+            -3.885,
+            51.808
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "name": "Bealach na B\u00e0",
+        "region": "Wester Ross",
+        "rating": "orange",
+        "reason": "Single-track, steep drops and tight hairpins. Penfold is within the sensible VW-camper size bracket, but confident reversing is essential.",
+        "source": "https://www.openstreetmap.org/search?query=Bealach%20na%20Ba"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.611,
+            57.41
+          ],
+          [
+            -5.687,
+            57.419
+          ],
+          [
+            -5.744,
+            57.428
+          ],
+          [
+            -5.809,
+            57.433
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "name": "B869 Drumbeg Road",
+        "region": "Assynt / NC500",
+        "rating": "orange",
+        "reason": "Very narrow single-track with bends and crests. Penfold is small enough, but long reversing is a realistic possibility.",
+        "source": "https://www.openstreetmap.org/search?query=B869%20Drumbeg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.235,
+            58.146
+          ],
+          [
+            -5.279,
+            58.189
+          ],
+          [
+            -5.319,
+            58.231
+          ],
+          [
+            -5.382,
+            58.259
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "name": "Quiraing road",
+        "region": "Isle of Skye",
+        "rating": "orange",
+        "reason": "Single-track with passing places and a tight switchback. Vehicle size is fine; peak-season congestion is the bigger issue.",
+        "source": "https://www.openstreetmap.org/search?query=Quiraing"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.197,
+            57.625
+          ],
+          [
+            -6.242,
+            57.641
+          ],
+          [
+            -6.289,
+            57.653
+          ],
+          [
+            -6.357,
+            57.586
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "properties": {
+        "name": "Applecross coastal road",
+        "region": "Wester Ross",
+        "rating": "yellow",
+        "reason": "Long single-track stretches but fewer extreme hairpins/gradients than Bealach na B\u00e0.",
+        "source": "https://www.openstreetmap.org/search?query=Applecross%20coastal%20road"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.809,
+            57.433
+          ],
+          [
+            -5.815,
+            57.52
+          ],
+          [
+            -5.769,
+            57.617
+          ],
+          [
+            -5.779,
+            57.746
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "properties": {
+        "name": "Glen Etive road",
+        "region": "Glencoe",
+        "rating": "orange",
+        "reason": "Long dead-end single-track road. Penfold fits; congestion and meeting traffic are the issue.",
+        "source": "https://www.openstreetmap.org/search?query=Glen%20Etive"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.871,
+            56.619
+          ],
+          [
+            -4.908,
+            56.588
+          ],
+          [
+            -4.932,
+            56.55
+          ],
+          [
+            -4.939,
+            56.512
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "properties": {
+        "name": "Duke's Pass (A821)",
+        "region": "Trossachs",
+        "rating": "yellow",
+        "reason": "Very twisty with elevation changes, but normal road width for most of its length.",
+        "source": "https://www.openstreetmap.org/search?query=Duke%27s%20Pass%20A821"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.386,
+            56.186
+          ],
+          [
+            -4.397,
+            56.203
+          ],
+          [
+            -4.397,
+            56.22
+          ],
+          [
+            -4.406,
+            56.24
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "properties": {
+        "name": "B3306 St Ives\u2013Zennor",
+        "region": "West Cornwall",
+        "rating": "yellow",
+        "reason": "Tight coastal B-road with narrow sections. Penfold-sized vans are normal, but summer traffic can make it a squeeze.",
+        "source": "https://www.openstreetmap.org/search?query=B3306%20Zennor"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.487,
+            50.21
+          ],
+          [
+            -5.548,
+            50.191
+          ],
+          [
+            -5.604,
+            50.187
+          ],
+          [
+            -5.674,
+            50.166
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "properties": {
+        "name": "Hemmick Beach access lane",
+        "region": "Cornwall",
+        "rating": "red",
+        "reason": "Very steep, narrow approach with horseshoe bends and virtually no turning room. Campervan/motorhome reports describe vehicles struggling to climb back out.",
+        "source": "https://www.motorhomefun.co.uk/forum/threads/motorhome-stuck-down-cornwall-lane.314900/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.799,
+            50.237
+          ],
+          [
+            -4.794,
+            50.229
+          ],
+          [
+            -4.79,
+            50.222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "properties": {
+        "name": "Sutton Bank (A170)",
+        "region": "North York Moors",
+        "rating": "orange",
+        "reason": "Very steep signed hill with a sharp bend. Penfold is far smaller than an HGV, but this deserves more respect than a normal A-road.",
+        "source": "https://www.openstreetmap.org/search?query=Sutton%20Bank%20A170"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.213,
+            54.245
+          ],
+          [
+            -1.198,
+            54.236
+          ],
+          [
+            -1.184,
+            54.227
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "properties": {
+        "name": "Buttertubs Pass",
+        "region": "Yorkshire Dales",
+        "rating": "orange",
+        "reason": "Narrow exposed moorland road with steep sections, bends and limited passing. Suitable for a capable campervan driver but not a carefree shortcut.",
+        "source": "https://www.openstreetmap.org/search?query=Buttertubs%20Pass"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.209,
+            54.305
+          ],
+          [
+            -2.196,
+            54.326
+          ],
+          [
+            -2.188,
+            54.348
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "properties": {
+        "name": "Fleet Moss / Oughtershaw road",
+        "region": "Yorkshire Dales",
+        "rating": "orange",
+        "reason": "High, narrow and exposed with steep approaches and single-track sections. Weather and meeting traffic matter more than Penfold's absolute dimensions.",
+        "source": "https://www.openstreetmap.org/search?query=Fleet%20Moss"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.151,
+            54.196
+          ],
+          [
+            -2.174,
+            54.228
+          ],
+          [
+            -2.196,
+            54.257
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "properties": {
+        "name": "Tan Hill approach roads",
+        "region": "Yorkshire Dales",
+        "rating": "yellow",
+        "reason": "Remote high moorland roads, generally achievable in Penfold but narrow/exposed and potentially difficult in poor weather.",
+        "source": "https://www.openstreetmap.org/search?query=Tan%20Hill%20Inn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.16,
+            54.455
+          ],
+          [
+            -2.145,
+            54.442
+          ],
+          [
+            -2.132,
+            54.425
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "properties": {
+        "name": "The Struggle, Ambleside\u2013Kirkstone",
+        "region": "Lake District",
+        "rating": "orange",
+        "reason": "Very steep alternative approach to Kirkstone with bends and narrow sections. Doable, but not the relaxed way to get Penfold up to the pass.",
+        "source": "https://www.openstreetmap.org/search?query=The%20Struggle%20Ambleside"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.963,
+            54.432
+          ],
+          [
+            -2.944,
+            54.448
+          ],
+          [
+            -2.927,
+            54.463
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "properties": {
+        "name": "Hawkshead\u2013Coniston minor-road corridor",
+        "region": "Lake District",
+        "rating": "yellow",
+        "reason": "Known for narrow walled sections and awkward encounters with buses/large traffic. Penfold fits, but expect patience and occasional reversing.",
+        "source": "https://www.motorhomefun.co.uk/forum/threads/narrow-lanes.162929/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.998,
+            54.374
+          ],
+          [
+            -3.03,
+            54.364
+          ],
+          [
+            -3.071,
+            54.369
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "properties": {
+        "name": "Wasdale Head approach",
+        "region": "Lake District",
+        "rating": "yellow",
+        "reason": "Long narrow approach with stone walls and meeting-traffic pressure. Penfold-sized vehicles are practical, but progress can be slow.",
+        "source": "https://www.openstreetmap.org/search?query=Wasdale%20Head"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.375,
+            54.418
+          ],
+          [
+            -3.339,
+            54.447
+          ],
+          [
+            -3.277,
+            54.466
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "properties": {
+        "name": "Langdale / Blea Tarn road",
+        "region": "Lake District",
+        "rating": "orange",
+        "reason": "Narrow, steep and twisty minor road connecting Great Langdale toward Wrynose. Treat as an intentional scenic drive rather than a normal route.",
+        "source": "https://www.openstreetmap.org/search?query=Blea%20Tarn%20Lake%20District"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.087,
+            54.447
+          ],
+          [
+            -3.104,
+            54.427
+          ],
+          [
+            -3.116,
+            54.41
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "properties": {
+        "name": "Abergwesyn Pass / Devil's Staircase",
+        "region": "Mid Wales",
+        "rating": "orange",
+        "reason": "Remote single-track mountain road with a famously steep hairpin section. Penfold can fit, but visibility, gradient and reversing are the issue.",
+        "source": "https://www.openstreetmap.org/search?query=Devils%20Staircase%20Abergwesyn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.735,
+            52.118
+          ],
+          [
+            -3.708,
+            52.142
+          ],
+          [
+            -3.681,
+            52.164
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "properties": {
+        "name": "Elan Valley mountain road",
+        "region": "Mid Wales",
+        "rating": "yellow",
+        "reason": "Narrow scenic reservoir/mountain road with bends and occasional single-track character. Generally Penfold-friendly with sensible speed.",
+        "source": "https://www.openstreetmap.org/search?query=Elan%20Valley"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.601,
+            52.281
+          ],
+          [
+            -3.666,
+            52.313
+          ],
+          [
+            -3.735,
+            52.337
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "properties": {
+        "name": "Llanberis Pass (A4086)",
+        "region": "Eryri",
+        "rating": "yellow",
+        "reason": "Main road but constrained by rock faces, parking pressure, buses and tourist traffic. Penfold fits comfortably; congestion is the real concern.",
+        "source": "https://www.openstreetmap.org/search?query=Llanberis%20Pass"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.126,
+            53.117
+          ],
+          [
+            -4.077,
+            53.101
+          ],
+          [
+            -4.019,
+            53.081
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "properties": {
+        "name": "Pen-y-Pass / Nant Gwynant (A498)",
+        "region": "Eryri",
+        "rating": "yellow",
+        "reason": "Mountain A-road with bends, buses and visitor traffic. Normally suitable for Penfold, but parking/congestion can make it feel tighter.",
+        "source": "https://www.openstreetmap.org/search?query=A498%20Nant%20Gwynant"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.02,
+            53.081
+          ],
+          [
+            -4.038,
+            53.041
+          ],
+          [
+            -4.064,
+            53.001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "properties": {
+        "name": "Machynlleth\u2013Llanidloes mountain road",
+        "region": "Mid Wales",
+        "rating": "orange",
+        "reason": "Remote minor-road crossing with narrow sections and little traffic. A good example of a route where Penfold fits but Google-style shortcuts deserve scrutiny.",
+        "source": "https://www.openstreetmap.org/search?query=Machynlleth%20Llanidloes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.85,
+            52.59
+          ],
+          [
+            -3.681,
+            52.533
+          ],
+          [
+            -3.54,
+            52.451
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "properties": {
+        "name": "Cwmystwyth mountain road",
+        "region": "Mid Wales",
+        "rating": "yellow",
+        "reason": "Narrow remote valley road with limited passing and exposed sections. Generally manageable in a Transporter-sized camper.",
+        "source": "https://www.openstreetmap.org/search?query=Cwmystwyth"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.744,
+            52.356
+          ],
+          [
+            -3.808,
+            52.352
+          ],
+          [
+            -3.867,
+            52.351
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "properties": {
+        "name": "Vale of Ewyas / Capel-y-ffin road",
+        "region": "Black Mountains",
+        "rating": "orange",
+        "reason": "Very narrow rural valley road with constrained passing before/around Gospel Pass. Fine if quiet; awkward when busy.",
+        "source": "https://www.openstreetmap.org/search?query=Capel-y-ffin"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.014,
+            51.948
+          ],
+          [
+            -3.033,
+            51.977
+          ],
+          [
+            -3.051,
+            52.006
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "properties": {
+        "name": "Mam Rat / Rushup Edge minor road",
+        "region": "Peak District",
+        "rating": "orange",
+        "reason": "Steep/narrow Peak District minor-road territory adjacent to Winnats; worth treating cautiously in a long-wheelbase camper.",
+        "source": "https://www.openstreetmap.org/search?query=Mam%20Tor%20Rushup%20Edge"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.823,
+            53.349
+          ],
+          [
+            -1.849,
+            53.34
+          ],
+          [
+            -1.878,
+            53.337
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "properties": {
+        "name": "Snake Pass (A57)",
+        "region": "Peak District",
+        "rating": "yellow",
+        "reason": "Twisty and exposed but a normal A-road. Penfold suitability is generally good; weather and closures are more important than size.",
+        "source": "https://www.openstreetmap.org/search?query=Snake%20Pass"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.779,
+            53.432
+          ],
+          [
+            -1.866,
+            53.431
+          ],
+          [
+            -1.959,
+            53.438
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "properties": {
+        "name": "Woodhead Pass (A628)",
+        "region": "Peak District",
+        "rating": "green",
+        "reason": "Strategic trans-Pennine route used by substantial commercial traffic. Default green for Penfold unless a temporary restriction applies.",
+        "source": "https://www.openstreetmap.org/search?query=Woodhead%20Pass%20A628"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.819,
+            53.495
+          ],
+          [
+            -1.93,
+            53.493
+          ],
+          [
+            -2.03,
+            53.484
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "properties": {
+        "name": "Cat and Fiddle (A537)",
+        "region": "Peak District",
+        "rating": "yellow",
+        "reason": "Fast, exposed, bend-heavy A-road. No inherent Penfold dimensional problem; use normal mountain-road care.",
+        "source": "https://www.openstreetmap.org/search?query=Cat%20and%20Fiddle%20A537"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.022,
+            53.244
+          ],
+          [
+            -1.993,
+            53.216
+          ],
+          [
+            -1.954,
+            53.196
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "properties": {
+        "name": "Achnashellach\u2013Torridon (A890/A896)",
+        "region": "Wester Ross",
+        "rating": "yellow",
+        "reason": "Highland road with narrower sections and single-track character in places. Penfold is a sensible size for it; passing-place etiquette matters.",
+        "source": "https://www.openstreetmap.org/search?query=Torridon%20A896"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.332,
+            57.481
+          ],
+          [
+            -5.427,
+            57.525
+          ],
+          [
+            -5.514,
+            57.547
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "properties": {
+        "name": "Shieldaig\u2013Applecross coastal road",
+        "region": "Wester Ross",
+        "rating": "yellow",
+        "reason": "Single-track scenic route with passing places. Longer and slower than a normal road but generally a good Penfold option.",
+        "source": "https://www.openstreetmap.org/search?query=Shieldaig%20Applecross"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.649,
+            57.523
+          ],
+          [
+            -5.747,
+            57.474
+          ],
+          [
+            -5.807,
+            57.432
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "properties": {
+        "name": "Kinloch Hourn road",
+        "region": "Highlands",
+        "rating": "orange",
+        "reason": "Long dead-end single-track road with remote, narrow sections. Penfold fits, but meeting traffic can mean significant reversing.",
+        "source": "https://www.openstreetmap.org/search?query=Kinloch%20Hourn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.224,
+            57.09
+          ],
+          [
+            -5.41,
+            57.075
+          ],
+          [
+            -5.553,
+            57.102
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "properties": {
+        "name": "Mallaig\u2013Morar old/minor roads",
+        "region": "West Highlands",
+        "rating": "yellow",
+        "reason": "Some narrow local roads around the coast/beaches; main A830 is green-quality, but satnav diversions onto minor lanes deserve caution.",
+        "source": "https://www.openstreetmap.org/search?query=Morar%20Scotland"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.827,
+            56.969
+          ],
+          [
+            -5.795,
+            56.945
+          ],
+          [
+            -5.768,
+            56.918
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "properties": {
+        "name": "Ardnamurchan B8007",
+        "region": "West Highlands",
+        "rating": "yellow",
+        "reason": "Long single-track road with many passing places. Slow rather than inherently unsuitable; Penfold is a very reasonable vehicle for it.",
+        "source": "https://www.openstreetmap.org/search?query=B8007%20Ardnamurchan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.728,
+            56.722
+          ],
+          [
+            -5.982,
+            56.715
+          ],
+          [
+            -6.223,
+            56.727
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "properties": {
+        "name": "Mull B8035 west coast",
+        "region": "Isle of Mull",
+        "rating": "yellow",
+        "reason": "Classic island single-track road. Penfold fits; patience, passing places and avoiding convoy behaviour are the key issues.",
+        "source": "https://www.openstreetmap.org/search?query=B8035%20Mull"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.059,
+            56.452
+          ],
+          [
+            -6.189,
+            56.482
+          ],
+          [
+            -6.291,
+            56.521
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "properties": {
+        "name": "Mull Calgary\u2013Dervaig road",
+        "region": "Isle of Mull",
+        "rating": "yellow",
+        "reason": "Narrow island road with passing places. Normal territory for Transporter-sized campers but not fast travel.",
+        "source": "https://www.openstreetmap.org/search?query=Calgary%20Dervaig%20Mull"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.281,
+            56.578
+          ],
+          [
+            -6.247,
+            56.553
+          ],
+          [
+            -6.139,
+            56.528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "properties": {
+        "name": "Skye Elgol road (B8083)",
+        "region": "Isle of Skye",
+        "rating": "orange",
+        "reason": "Long narrow single-track road with blind bends and tourist traffic. Penfold is suitable, but reversing skill and patience are important.",
+        "source": "https://www.openstreetmap.org/search?query=B8083%20Elgol"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.807,
+            57.236
+          ],
+          [
+            -5.944,
+            57.193
+          ],
+          [
+            -6.103,
+            57.147
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "properties": {
+        "name": "Skye Glen Brittle road",
+        "region": "Isle of Skye",
+        "rating": "orange",
+        "reason": "Single-track dead-end access with heavy visitor traffic for the Fairy Pools/Glen Brittle area. Congestion is the principal Penfold problem.",
+        "source": "https://www.openstreetmap.org/search?query=Glen%20Brittle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.29,
+            57.29
+          ],
+          [
+            -6.32,
+            57.249
+          ],
+          [
+            -6.33,
+            57.214
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "properties": {
+        "name": "Loch Arkaig road",
+        "region": "Highlands",
+        "rating": "orange",
+        "reason": "Long narrow dead-end loch road with limited passing. Penfold fits but can require substantial reversing when traffic meets.",
+        "source": "https://www.openstreetmap.org/search?query=Loch%20Arkaig"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.078,
+            56.927
+          ],
+          [
+            -5.226,
+            56.953
+          ],
+          [
+            -5.376,
+            56.958
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "properties": {
+        "name": "Loch Etive north-shore access",
+        "region": "Highlands",
+        "rating": "orange",
+        "reason": "Remote minor-road access where narrowness and turning opportunities matter. Investigate destination/turning point before committing.",
+        "source": "https://www.openstreetmap.org/search?query=Loch%20Etive"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.046,
+            56.52
+          ],
+          [
+            -5.119,
+            56.514
+          ],
+          [
+            -5.189,
+            56.52
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "properties": {
+        "name": "Durness\u2013Kinlochbervie (A838/B801)",
+        "region": "Northwest Highlands",
+        "rating": "yellow",
+        "reason": "Remote single-track/highland-road sections but designed for local traffic. Penfold is a sensible size; use passing places correctly.",
+        "source": "https://www.openstreetmap.org/search?query=Kinlochbervie"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.747,
+            58.568
+          ],
+          [
+            -4.903,
+            58.493
+          ],
+          [
+            -5.052,
+            58.459
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "properties": {
+        "name": "Kylesku\u2013Drumbeg alternative A894",
+        "region": "Assynt",
+        "rating": "green",
+        "reason": "The lower-stress strategic alternative when you do not fancy the B869 Drumbeg road. Default good Penfold route.",
+        "source": "https://www.openstreetmap.org/search?query=A894%20Kylesku"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.016,
+            58.258
+          ],
+          [
+            -5.058,
+            58.175
+          ],
+          [
+            -5.075,
+            58.087
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "properties": {
+        "name": "Cheddar Gorge (B3135)",
+        "region": "Somerset",
+        "rating": "yellow",
+        "reason": "Narrow/bendy scenic gorge with rock faces and visitor traffic, but routinely used by vans and buses. Penfold fits; take bends slowly.",
+        "source": "https://www.openstreetmap.org/search?query=Cheddar%20Gorge%20B3135"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.774,
+            51.279
+          ],
+          [
+            -2.755,
+            51.296
+          ],
+          [
+            -2.737,
+            51.312
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "properties": {
+        "name": "Countisbury Hill (A39)",
+        "region": "Exmoor",
+        "rating": "yellow",
+        "reason": "Steep coastal A-road. Penfold has no unusual size issue, but descents/climbs deserve lower gears and sensible braking.",
+        "source": "https://www.openstreetmap.org/search?query=Countisbury%20Hill"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.813,
+            51.226
+          ],
+          [
+            -3.783,
+            51.224
+          ],
+          [
+            -3.752,
+            51.216
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "properties": {
+        "name": "Valley of Rocks / Lynton local road",
+        "region": "Exmoor",
+        "rating": "orange",
+        "reason": "Narrow scenic local road with constrained sections and visitor traffic. Worth checking your exact route rather than following a satnav blindly.",
+        "source": "https://www.openstreetmap.org/search?query=Valley%20of%20Rocks"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.852,
+            51.231
+          ],
+          [
+            -3.874,
+            51.229
+          ],
+          [
+            -3.899,
+            51.227
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "properties": {
+        "name": "Dartmeet\u2013Postbridge (B3212)",
+        "region": "Dartmoor",
+        "rating": "yellow",
+        "reason": "Moorland B-road with bends, livestock and tourist traffic. Normally comfortable enough for Penfold.",
+        "source": "https://www.openstreetmap.org/search?query=B3212%20Dartmoor"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.878,
+            50.543
+          ],
+          [
+            -3.913,
+            50.576
+          ],
+          [
+            -3.904,
+            50.596
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "properties": {
+        "name": "Widecombe\u2013Haytor minor road",
+        "region": "Dartmoor",
+        "rating": "yellow",
+        "reason": "Narrow rural moorland road, but generally manageable in a Transporter. Use care around stone walls and meeting traffic.",
+        "source": "https://www.openstreetmap.org/search?query=Widecombe%20Haytor"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.812,
+            50.576
+          ],
+          [
+            -3.773,
+            50.579
+          ],
+          [
+            -3.756,
+            50.579
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "properties": {
+        "name": "Hartland Quay approach",
+        "region": "North Devon",
+        "rating": "orange",
+        "reason": "Steep/narrow coastal approach where turning and meeting traffic can be awkward. Penfold-sized but worth deliberate route choice.",
+        "source": "https://www.openstreetmap.org/search?query=Hartland%20Quay"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.495,
+            50.996
+          ],
+          [
+            -4.519,
+            50.997
+          ],
+          [
+            -4.533,
+            50.994
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "properties": {
+        "name": "Clovelly approach/local lanes",
+        "region": "North Devon",
+        "rating": "yellow",
+        "reason": "The main visitor approach is manageable; surrounding local lanes can be much tighter. Stay on the signed access route.",
+        "source": "https://www.openstreetmap.org/search?query=Clovelly"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.37,
+            50.999
+          ],
+          [
+            -4.393,
+            51.0
+          ],
+          [
+            -4.405,
+            51.002
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "properties": {
+        "name": "Zennor\u2013St Just B3306",
+        "region": "West Cornwall",
+        "rating": "yellow",
+        "reason": "Spectacular but bendy/narrow coastal B-road. Penfold is a normal-sized vehicle here; summer meeting traffic is the challenge.",
+        "source": "https://www.openstreetmap.org/search?query=B3306%20St%20Just"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.674,
+            50.166
+          ],
+          [
+            -5.741,
+            50.151
+          ],
+          [
+            -5.692,
+            50.124
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "properties": {
+        "name": "King Harry Ferry approach lanes",
+        "region": "Cornwall",
+        "rating": "yellow",
+        "reason": "Ferry itself accommodates vehicles, but local approach roads can be narrow. Penfold is practical if you stay on signed routes.",
+        "source": "https://www.openstreetmap.org/search?query=King%20Harry%20Ferry"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.035,
+            50.219
+          ],
+          [
+            -5.026,
+            50.207
+          ],
+          [
+            -5.024,
+            50.195
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "properties": {
+        "name": "Lizard peninsula minor coastal lanes",
+        "region": "Cornwall",
+        "rating": "grey",
+        "reason": "Highly variable Cornish lanes: some are easy, others hedge-bound and effectively single-track. Unknown until the exact road is assessed.",
+        "source": "https://www.openstreetmap.org/search?query=Lizard%20Cornwall"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.185,
+            50.034
+          ],
+          [
+            -5.205,
+            50.016
+          ],
+          [
+            -5.207,
+            49.969
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "properties": {
+        "name": "Gower Rhossili approach (B4247)",
+        "region": "Gower",
+        "rating": "yellow",
+        "reason": "Main approach is suitable for Penfold but can be busy/narrow-feeling in summer. Avoid opportunistic satnav diversions onto tiny lanes.",
+        "source": "https://www.openstreetmap.org/search?query=B4247%20Rhossili"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.186,
+            51.59
+          ],
+          [
+            -4.237,
+            51.578
+          ],
+          [
+            -4.285,
+            51.57
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "properties": {
+        "name": "Gower Oxwich local approach",
+        "region": "Gower",
+        "rating": "orange",
+        "reason": "Local lanes can be very narrow and constrained by hedges/walls. Penfold can fit, but route selection matters.",
+        "source": "https://www.openstreetmap.org/search?query=Oxwich"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.119,
+            51.588
+          ],
+          [
+            -4.141,
+            51.569
+          ],
+          [
+            -4.149,
+            51.555
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "properties": {
+        "name": "Newgale\u2013Solva coastal road (A487)",
+        "region": "Pembrokeshire",
+        "rating": "yellow",
+        "reason": "Coastal A-road with bends and seasonal traffic but fundamentally suitable for Penfold.",
+        "source": "https://www.openstreetmap.org/search?query=A487%20Solva"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.126,
+            51.855
+          ],
+          [
+            -5.173,
+            51.867
+          ],
+          [
+            -5.196,
+            51.874
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "properties": {
+        "name": "St Davids minor coastal lanes",
+        "region": "Pembrokeshire",
+        "rating": "grey",
+        "reason": "Road quality varies sharply away from the A487. Treat unsurveyed coastal lanes as unknown rather than assuming campervan suitability.",
+        "source": "https://www.openstreetmap.org/search?query=St%20Davids%20Pembrokeshire"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.264,
+            51.882
+          ],
+          [
+            -5.287,
+            51.894
+          ],
+          [
+            -5.303,
+            51.91
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "properties": {
+        "name": "Bwlch-y-Groes alternative A494 corridor",
+        "region": "North Wales",
+        "rating": "green",
+        "reason": "Main-road alternative to committing to the much more severe Bwlch y Groes minor-road crossing.",
+        "source": "https://www.openstreetmap.org/search?query=A494%20Bala"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.536,
+            52.718
+          ],
+          [
+            -3.458,
+            52.787
+          ],
+          [
+            -3.407,
+            52.84
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "properties": {
+        "name": "A82 Glencoe",
+        "region": "Highlands",
+        "rating": "green",
+        "reason": "Strategic trunk route used by coaches and HGVs. Default green for Penfold; weather/incidents can still override that.",
+        "source": "https://www.openstreetmap.org/search?query=A82%20Glencoe"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.103,
+            56.68
+          ],
+          [
+            -5.02,
+            56.646
+          ],
+          [
+            -4.951,
+            56.62
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "properties": {
+        "name": "A9 Highland trunk route",
+        "region": "Scotland",
+        "rating": "green",
+        "reason": "Major strategic trunk road. Default green for Penfold unless a specific temporary restriction applies.",
+        "source": "https://www.openstreetmap.org/search?query=A9%20Scotland"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.938,
+            56.705
+          ],
+          [
+            -3.829,
+            57.154
+          ],
+          [
+            -4.225,
+            57.478
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "properties": {
+        "name": "A30 Cornwall trunk route",
+        "region": "Cornwall",
+        "rating": "green",
+        "reason": "Primary strategic route into Cornwall. Default green and preferable to satnav shortcuts through hedge-bound lanes.",
+        "source": "https://www.openstreetmap.org/search?query=A30%20Cornwall"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.787,
+            50.398
+          ],
+          [
+            -5.06,
+            50.33
+          ],
+          [
+            -5.384,
+            50.17
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "properties": {
+        "name": "A55 North Wales Expressway",
+        "region": "North Wales",
+        "rating": "green",
+        "reason": "High-standard strategic route. Default green for Penfold subject to signed/temporary restrictions.",
+        "source": "https://www.openstreetmap.org/search?query=A55%20North%20Wales"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.829,
+            53.294
+          ],
+          [
+            -3.316,
+            53.282
+          ],
+          [
+            -2.978,
+            53.228
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "properties": {
+        "name": "A591 Kendal\u2013Keswick",
+        "region": "Lake District",
+        "rating": "green",
+        "reason": "Main Lake District arterial route; handles motorhomes routinely. Default green for Penfold unless a temporary restriction applies.",
+        "source": "https://lakedistrict.gov.uk/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.745,
+            54.326
+          ],
+          [
+            -2.919,
+            54.43
+          ],
+          [
+            -3.135,
+            54.601
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "properties": {
+        "name": "Windermere west-shore road",
+        "region": "Lake District",
+        "rating": "yellow",
+        "reason": "Narrower in places than the eastern-shore routes, especially around Ferry Nab. Penfold is workable but meeting traffic deserves care.",
+        "source": "https://www.heathsmotorhomehire.com/blog/lake-district-motorhome-tips"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.958,
+            54.278
+          ],
+          [
+            -2.97,
+            54.335
+          ],
+          [
+            -2.982,
+            54.391
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "properties": {
+        "name": "A39 Bude\u2013Newquay",
+        "region": "Cornwall",
+        "rating": "green",
+        "reason": "Straightforward main-road Cornwall corridor with regular passing opportunities; preferable to minor-lane satnav shortcuts.",
+        "source": "https://www.heathsmotorhomehire.com/blog/cornwall-motorhome-narrow-lanes-guide"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.545,
+            50.828
+          ],
+          [
+            -4.755,
+            50.59
+          ],
+          [
+            -5.075,
+            50.414
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "properties": {
+        "name": "A38 South-east Cornwall",
+        "region": "Cornwall",
+        "rating": "green",
+        "reason": "Main strategic route and generally unproblematic for campervans.",
+        "source": "https://www.heathsmotorhomehire.com/blog/cornwall-motorhome-narrow-lanes-guide"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.142,
+            50.409
+          ],
+          [
+            -4.32,
+            50.416
+          ],
+          [
+            -4.466,
+            50.407
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "properties": {
+        "name": "A390 Cornwall corridor",
+        "region": "Cornwall",
+        "rating": "green",
+        "reason": "Main south-Cornwall route; substantially preferable to unsigned/minor alternatives for Penfold.",
+        "source": "https://www.heathsmotorhomehire.com/blog/cornwall-motorhome-narrow-lanes-guide"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.466,
+            50.407
+          ],
+          [
+            -4.791,
+            50.34
+          ],
+          [
+            -5.05,
+            50.263
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "properties": {
+        "name": "Porthcurno approach lanes",
+        "region": "West Cornwall",
+        "rating": "orange",
+        "reason": "Cove approach roads can be extremely narrow with steep gradients and tight bends. Route choice and peak-season traffic matter.",
+        "source": "https://www.heathsmotorhomehire.com/blog/cornwall-motorhome-narrow-lanes-guide"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.65,
+            50.095
+          ],
+          [
+            -5.671,
+            50.071
+          ],
+          [
+            -5.68,
+            50.044
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "properties": {
+        "name": "Kynance Cove approach",
+        "region": "Lizard, Cornwall",
+        "rating": "orange",
+        "reason": "Narrow coastal access; campervan guidance specifically flags smaller cove approaches as roads where larger vehicles should take care.",
+        "source": "https://www.heathsmotorhomehire.com/blog/cornwall-motorhome-narrow-lanes-guide"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.207,
+            49.969
+          ],
+          [
+            -5.222,
+            49.975
+          ],
+          [
+            -5.23,
+            49.974
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "properties": {
+        "name": "Cadgwith approach lanes",
+        "region": "Lizard, Cornwall",
+        "rating": "orange",
+        "reason": "Fishing-village approach with very narrow local lanes. Penfold is compact for a camper, but this is still deliberate-route territory.",
+        "source": "https://www.heathsmotorhomehire.com/blog/cornwall-motorhome-narrow-lanes-guide"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.183,
+            49.999
+          ],
+          [
+            -5.177,
+            49.989
+          ],
+          [
+            -5.181,
+            49.987
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "properties": {
+        "name": "Mousehole approach from Newlyn",
+        "region": "West Cornwall",
+        "rating": "orange",
+        "reason": "Tight turns and granite-wall constraints make the village approach awkward for larger vehicles; use the main signed approach only.",
+        "source": "https://www.heathsmotorhomehire.com/blog/cornwall-motorhome-narrow-lanes-guide"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.548,
+            50.103
+          ],
+          [
+            -5.538,
+            50.093
+          ],
+          [
+            -5.539,
+            50.083
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "properties": {
+        "name": "Port Isaac local approach",
+        "region": "North Cornwall",
+        "rating": "orange",
+        "reason": "Local lanes are exceptionally tight; use designated visitor access/parking rather than driving toward the historic centre.",
+        "source": "https://www.heathsmotorhomehire.com/blog/cornwall-motorhome-narrow-lanes-guide"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.827,
+            50.595
+          ],
+          [
+            -4.833,
+            50.591
+          ],
+          [
+            -4.83,
+            50.592
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "properties": {
+        "name": "Polperro local approach",
+        "region": "South Cornwall",
+        "rating": "orange",
+        "reason": "Historic village roads are challenging for larger vehicles. Use signed visitor routes and parking rather than centre-bound satnav instructions.",
+        "source": "https://www.heathsmotorhomehire.com/blog/cornwall-motorhome-narrow-lanes-guide"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.52,
+            50.343
+          ],
+          [
+            -4.514,
+            50.335
+          ],
+          [
+            -4.513,
+            50.331
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "properties": {
+        "name": "Mevagissey local approach",
+        "region": "South Cornwall",
+        "rating": "orange",
+        "reason": "Constrained fishing-village streets and seasonal congestion. Main signed approach is preferable; avoid tiny centre lanes.",
+        "source": "https://www.heathsmotorhomehire.com/blog/cornwall-motorhome-narrow-lanes-guide"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.791,
+            50.278
+          ],
+          [
+            -4.788,
+            50.271
+          ],
+          [
+            -4.787,
+            50.268
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "properties": {
+        "name": "Fowey local approach",
+        "region": "South Cornwall",
+        "rating": "yellow",
+        "reason": "Reachable by sensible main approaches, but town-centre streets are much less camper-friendly. Use designated parking.",
+        "source": "https://www.heathsmotorhomehire.com/blog/cornwall-motorhome-narrow-lanes-guide"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.65,
+            50.351
+          ],
+          [
+            -4.637,
+            50.341
+          ],
+          [
+            -4.635,
+            50.335
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "properties": {
+        "name": "B3311 / Halsetown approach to St Ives",
+        "region": "West Cornwall",
+        "rating": "orange",
+        "reason": "Frequently cited as problematic in peak season, when parked cars further constrain an already awkward approach.",
+        "source": "https://www.heathsmotorhomehire.com/blog/cornwall-motorhome-narrow-lanes-guide"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.502,
+            50.185
+          ],
+          [
+            -5.516,
+            50.199
+          ],
+          [
+            -5.49,
+            50.21
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "properties": {
+        "name": "Hirnant Pass / Lake Vyrnwy\u2013Bala route",
+        "region": "North Wales",
+        "rating": "yellow",
+        "reason": "Narrow with passing places, but motorhome users report it suitable for vehicles short of coach-sized. Penfold is well within that scale.",
+        "source": "https://www.motorhomefun.co.uk/forum/threads/heading-north-from-lake-vyrnwy-towards-bala.175887/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.482,
+            52.759
+          ],
+          [
+            -3.547,
+            52.808
+          ],
+          [
+            -3.593,
+            52.855
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "properties": {
+        "name": "A470 Cambrian Way trunk sections",
+        "region": "Mid Wales",
+        "rating": "green",
+        "reason": "Principal north-south road through much of Wales. Default green for Penfold; minor scenic deviations are assessed separately.",
+        "source": "https://wales.org/explore-the-wales-way-by-campervan/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.385,
+            51.884
+          ],
+          [
+            -3.448,
+            52.263
+          ],
+          [
+            -3.839,
+            52.59
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "properties": {
+        "name": "A835 Inverness\u2013Ullapool",
+        "region": "Highlands",
+        "rating": "green",
+        "reason": "Major NC500 approach/strategic road. Default green for a Transporter-sized camper.",
+        "source": "https://makeitscotland.com/guides/driving-the-nc500-in-a-motorhome-or-campervan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.224,
+            57.478
+          ],
+          [
+            -4.683,
+            57.658
+          ],
+          [
+            -5.16,
+            57.896
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "properties": {
+        "name": "A836 north-coast NC500",
+        "region": "North Highlands",
+        "rating": "yellow",
+        "reason": "Much is manageable Highland road, but single-track sections and passing-place etiquette justify yellow rather than blanket green.",
+        "source": "https://makeitscotland.com/guides/driving-the-nc500-in-a-motorhome-or-campervan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.432,
+            58.567
+          ],
+          [
+            -3.754,
+            58.593
+          ],
+          [
+            -3.091,
+            58.594
+          ]
+        ]
+      }
+    }
+  ]
+}
