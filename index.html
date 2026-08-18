@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#17222e">
-  <title>Penfold UK Road Map</title>
+  <title>UK Campervan Road Suitability Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <div><h1>Penfold UK Road Map</h1><p>VW T6.1 LWB pop-top · 2.10 m high · planning guidance</p></div>
+    <div><h1>UK Campervan Road Suitability Map</h1><p>VW Transporter-sized camper · 2.10 m high · planning guidance</p></div>
     <button id="panelToggle" aria-label="Open map controls">☰</button>
   </header>
   <main>
@@ -21,7 +21,7 @@
         <div id="placeResults" class="results"></div>
       </section>
       <section>
-        <h2>Penfold road intelligence</h2>
+        <h2>Road suitability</h2>
         <input id="roadSearch" autocomplete="off" placeholder="e.g. Hardknott, Cornwall, Skye…">
         <div class="filters" id="filters">
           <button class="active" data-rating="all">All</button><button data-rating="green">Green</button><button data-rating="yellow">Yellow</button><button data-rating="orange">Orange</button><button data-rating="red">Red</button><button data-rating="grey">Unknown</button>
@@ -30,14 +30,20 @@
       </section>
       <section>
         <h2>Restrictions around the map</h2>
-        <p class="muted">Checks mapped height/width/length/weight restrictions, barriers and fords in the visible area.</p>
+        <p class="muted">Checks mapped height/width/length/weight restrictions, height barriers and fords in the visible area.</p>
         <button id="restrictionBtn" class="primary">Check this area</button>
         <div id="restrictionStatus" class="muted"></div>
       </section>
       <section class="vehicle">
-        <h2>Penfold</h2><div><b>2.10 m</b><span>height</span><b>5.304 m</b><span>length</span><b>1.904 m</b><span>body width</span><b>~2.297 m</b><span>mirrors</span></div>
+        <h2>Reference vehicle</h2><div><b>2.10 m</b><span>height</span><b>5.304 m</b><span>length</span><b>1.904 m</b><span>body width</span><b>~2.297 m</b><span>mirrors</span></div>
       </section>
-      <section class="legend"><h2>Key</h2><p><i class="green"></i> Straightforward</p><p><i class="yellow"></i> Suitable with care</p><p><i class="orange"></i> Deliberate/adventurous</p><p><i class="red"></i> Avoid by default</p><p><i class="grey"></i> Unknown</p><small>Motorways are green by default unless a specific issue overrides them. Signs, closures and conditions always take priority.</small></section>
+      <section>
+        <h2>Share local knowledge</h2>
+        <p class="muted">Driven one of these roads, spotted a restriction, or think a rating needs changing? Submit it on GitHub so it can be reviewed and incorporated into the map.</p>
+        <a class="primary" style="display:inline-block;text-decoration:none" href="https://github.com/emarshallsay/penfold-road-map/issues/new/choose" target="_blank" rel="noopener">Suggest a road or correction ↗</a>
+        <p class="muted"><a href="https://github.com/emarshallsay/penfold-road-map/issues" target="_blank" rel="noopener">View community reports</a></p>
+      </section>
+      <section class="legend"><h2>Key</h2><p><i class="green"></i> Straightforward</p><p><i class="yellow"></i> Suitable with care</p><p><i class="orange"></i> Deliberate/adventurous</p><p><i class="red"></i> Avoid by default</p><p><i class="grey"></i> Unknown</p><small>Motorways are green by default unless a specific issue overrides them. Ratings use the reference vehicle above. Signs, closures, weather and conditions always take priority.</small></section>
     </aside>
     <div id="map"></div>
   </main>
