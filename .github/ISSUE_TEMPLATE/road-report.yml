@@ -1,0 +1,91 @@
+name: Road experience or correction
+description: Share first-hand driving experience, suggest a road, or correct an existing rating.
+title: "[Road report]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the UK Campervan Road Suitability Map. First-hand reports are especially valuable on narrow, steep or awkward roads where dimensions alone do not tell the full story.
+  - type: input
+    id: road
+    attributes:
+      label: Road or location
+      description: Give the road number/name and the area, village or nearest town.
+      placeholder: "e.g. B1234 between Exampleton and Sampleford"
+    validations:
+      required: true
+  - type: input
+    id: maplink
+    attributes:
+      label: Map link or coordinates
+      description: Optional, but very useful for unnamed lanes or a specific pinch-point.
+      placeholder: "OpenStreetMap / Google Maps link or latitude, longitude"
+    validations:
+      required: false
+  - type: dropdown
+    id: reporttype
+    attributes:
+      label: What are you reporting?
+      options:
+        - First-hand driving experience
+        - Height restriction
+        - Width restriction or very narrow section
+        - Length / turning difficulty
+        - Steep gradient or hairpins
+        - Ford / water crossing
+        - Seasonal or traffic issue
+        - Existing map rating looks wrong
+        - Road not currently shown
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: suggestedrating
+    attributes:
+      label: Suggested suitability
+      description: For a VW Transporter-sized camper approximately 2.10 m high and 5.3 m long.
+      options:
+        - Not sure
+        - Green — straightforward
+        - Yellow — suitable with care
+        - Orange — deliberate / adventurous
+        - Red — avoid by default
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: What did you experience?
+      description: Include narrow sections, passing places, reversing, overhanging trees, gradients, tight bends, signed restrictions, traffic, or anything else that affected the drive.
+      placeholder: "Tell us what the road was actually like..."
+    validations:
+      required: true
+  - type: input
+    id: vehicle
+    attributes:
+      label: Vehicle used
+      description: Approximate size is enough. This helps put the experience in context.
+      placeholder: "e.g. VW T6 LWB pop-top, 2.1 m high"
+    validations:
+      required: false
+  - type: input
+    id: date
+    attributes:
+      label: When did you drive it?
+      placeholder: "e.g. August 2026"
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting information
+      description: Optional links to council restrictions, road signs, photos, forum discussions or other useful evidence.
+    validations:
+      required: false
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Before submitting
+      options:
+        - label: I understand this is a community report and will be reviewed before it changes the map.
+          required: true
