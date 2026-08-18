@@ -8,6 +8,8 @@ on:
       - 'roads-expansion-*.geojson'
       - 'scripts/snap_routes.py'
       - 'scripts/fetch_permanent_restrictions.py'
+      - 'scripts/fetch_osm_candidates.py'
+      - '.github/workflows/snap-roads.yml'
   schedule:
     - cron: '17 4 * * 1'
 
@@ -24,17 +26,21 @@ jobs:
       - name: Generate road-following geometry
         run: python3 scripts/snap_routes.py
 
-      - name: Refresh permanent vehicle restrictions
+      - name: Refresh permanent official restrictions
         run: python3 scripts/fetch_permanent_restrictions.py
+
+      - name: Harvest OSM restriction review candidates
+        continue-on-error: true
+        run: python3 scripts/fetch_osm_candidates.py
 
       - name: Commit generated datasets when changed
         run: |
-          if git diff --quiet -- roads-snapped.geojson permanent-restrictions.geojson; then
+          if git diff --quiet -- roads-snapped.geojson permanent-restrictions.geojson osm-restriction-candidates.geojson; then
             echo 'No generated-data changes.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add roads-snapped.geojson permanent-restrictions.geojson
+          git add roads-snapped.geojson permanent-restrictions.geojson osm-restriction-candidates.geojson
           git commit -m 'Refresh generated map data'
           git push
