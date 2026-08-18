@@ -1,4 +1,4 @@
-name: Refresh Penfold map data
+name: Refresh campervan map data
 
 on:
   workflow_dispatch:
