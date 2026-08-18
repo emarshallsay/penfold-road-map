@@ -1,8 +1,8 @@
-# Penfold Road Map
+# UK Campervan Road Suitability Map
 
-Interactive UK road-suitability map for **Penfold**, a VW T6.1 LWB pop-top campervan.
+Interactive UK road-suitability map for a **VW Transporter-sized LWB pop-top campervan**.
 
-Vehicle profile used by the map:
+Reference vehicle profile used by the map:
 
 - Height: 2.10 m
 - Length: 5.304 m
@@ -19,6 +19,10 @@ Vehicle profile used by the map:
 
 Motorways are treated as green unless a specific signed restriction or known issue overrides that.
 
-Road intelligence is stored in `data/roads.geojson`. The live local restriction tool queries OpenStreetMap/Overpass for mapped height, width, length and weight restrictions, barriers and fords.
+The map combines researched road suitability, official permanent restrictions and an optional live OpenStreetMap restriction check. It is planning guidance only: physical road signs, closures, weather and local instructions always take priority.
 
-This map is planning guidance only. Physical road signs, closures, weather and local instructions always take priority.
+## Contribute local knowledge
+
+First-hand experience is useful, particularly on narrow roads where dimensions alone do not tell the whole story. Please use [GitHub Issues](https://github.com/emarshallsay/penfold-road-map/issues) to suggest a road, report a restriction, correct a rating, or describe a recent driving experience.
+
+Community reports are treated as evidence to review rather than automatically changing a road rating. Where possible they will be checked against official restrictions, mapping and other reports before being incorporated.
