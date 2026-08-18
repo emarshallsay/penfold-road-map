@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'permanent-restrictions.geojson'
-PENFOLD_HEIGHT=2.10
+REFERENCE_HEIGHT=2.10
 CAUTION_HEIGHT=2.40
 
 SOURCES=[{
@@ -27,7 +27,7 @@ def parse_height(value):
 
 def fetch_geojson(src):
     url=src['url']+'?'+urllib.parse.urlencode(src['params'])
-    req=urllib.request.Request(url,headers={'User-Agent':'PenfoldRoadMap/1.0','Accept':'application/geo+json,application/json'})
+    req=urllib.request.Request(url,headers={'User-Agent':'UKCampervanRoadMap/1.0','Accept':'application/geo+json,application/json'})
     with urllib.request.urlopen(req,timeout=40) as r:return json.load(r)
 
 def main():
@@ -38,7 +38,7 @@ def main():
             p=f.get('properties') or {}
             h=parse_height(p.get('Signed_Headroom'))
             if h is None or h>CAUTION_HEIGHT: continue
-            status='conflict' if h<=PENFOLD_HEIGHT else 'caution'
+            status='conflict' if h<=REFERENCE_HEIGHT else 'caution'
             out.append({'type':'Feature','geometry':f.get('geometry'),'properties':{
                 'kind':'height','value_m':round(h,2),'status':status,
                 'name':p.get('Bridge_Name') or p.get('Bridge_Code') or 'Height-restricted bridge',
@@ -46,5 +46,5 @@ def main():
                 'source':src['name'],'source_url':src['source_url']
             }})
     OUT.write_text(json.dumps({'type':'FeatureCollection','features':out},ensure_ascii=False),encoding='utf-8')
-    print(f'Wrote {len(out)} Penfold-relevant permanent restrictions')
+    print(f'Wrote {len(out)} reference-vehicle-relevant permanent restrictions')
 if __name__=='__main__':main()
